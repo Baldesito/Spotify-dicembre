@@ -18,8 +18,8 @@ const App = () => (
         <Sidebar />
         <Results />
         <Main />
+        <Player />
       </div>
-      <Player />
     </div>
     <div>
       <Footer />
