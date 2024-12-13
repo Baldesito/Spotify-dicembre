@@ -1,0 +1,44 @@
+// Importa Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Override delle variabili di Bootstrap per personalizzare i colori
+$primary: #007bff;
+$secondary: #6c757d;
+$success: #1ed760;
+
+// Importa le utility di Bootstrap dopo aver ridefinito le variabili
+@import "node_modules/bootstrap/scss/utilities";
+
+// Puoi aggiungere altri stili personalizzati qui
+body {
+  background-color: $primary;
+}
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 15px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.btn-play {
+  background-color: #1ed760; // Verde tipico di Spotify
+  border: none;
+  margin-right: 5px;
+}
+
+.btn-heart {
+  background-color: transparent;
+  border: none;
+}
+
+.btn-heart .bi-heart {
+  color: #1ed760; // Verde tipico di Spotify
+}
+
+.btn-heart .bi-heart-fill {
+  color: #1ed760; // Verde tipico di Spotify
+}
